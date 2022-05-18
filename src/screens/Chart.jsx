@@ -6,7 +6,7 @@ import { Pie } from 'react-chartjs-2';
 
 import { http } from '../config/axiosConfig.js'
 
-const Dashboard = () => {
+const Chart = () => {
     const [Data, setData] = useState(null)
     useEffect(() => {
       http('/dashboard').then(res=>setData(res.data)).catch(err=>console.log(err.message))    
@@ -62,4 +62,4 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 
 
 
-export default Dashboard
+export default Chart

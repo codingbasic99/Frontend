@@ -26,7 +26,7 @@ import {
   Tooltip,
   Legend,
 } from "chart.js";
-import Dashboard from "./screens/Dashboard";
+import Chart from "./screens/Chart";
 
 export const data = {
   labels: ["January", "February", "March", "April", "May", "June", "July"],
@@ -74,7 +74,7 @@ function App() {
         <Routes>
           <Route path="/rating" element={<Rating />} />
           <Route path="/counter" element={<Counter />} />
-          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/Chart" element={<Chart />} />
           <Route path="/switch" element={<Switch />} />
            <Route path="tasks" element={<Tasks />} />
           <Route path="/products">
