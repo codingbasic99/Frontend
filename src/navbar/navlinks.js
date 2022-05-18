@@ -7,6 +7,7 @@ const navLinks = [
   { id: 6, label: "Form", path: "/products/new" },
   { id: 7, label: "Products", path: "/products" },
   { id: 7, label: "Chart", path: "/chart" },
+  { id: 7, label: "Dashboard", path: "/Dashboard" },
 ];
 
 export default navLinks;

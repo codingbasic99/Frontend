@@ -13,6 +13,7 @@ import Page404 from "./components/Page404";
 import Navbar from "../src/navbar/Navbar";
 import Products from "./components/products/Products";
 import ProductForm from "./components/products/ProductForm";
+import Dashboard from "./screens/Dashboard"
 
 
 import { Line, Bar } from "react-chartjs-2";
@@ -73,6 +74,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/rating" element={<Rating />} />
+          <Route path="/Dashboard" element={<Dashboard />} />
           <Route path="/counter" element={<Counter />} />
           <Route path="/Chart" element={<Chart />} />
           <Route path="/switch" element={<Switch />} />
