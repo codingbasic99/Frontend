@@ -1,0 +1,20 @@
+.m-task-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 5px;
+}
+.m-task-wrapper .controls{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+}
+.m-task-wrapper{
+    background-color: crimson;
+    color: white;
+}
+.m-task-wrapper.active{
+    background-color: rgb(89, 113, 53);
+}

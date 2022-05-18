@@ -1,0 +1,33 @@
+.switch-wrapper{
+    height:30px;
+    width:75px;
+    border:1px solid black;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    border-radius:20px;
+    padding: 2px ;
+    transition: all 0.5s;
+    position: relative;
+}
+
+/* .switch-wrapper.active{
+    transform: translateX(100%);
+    transition: all 0.5s;
+} */
+
+
+.switch-wrapper .toggler{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    border:1px solid blue;
+    transform: translateX(0);
+}
+
+.switch-wrapper .toggler.active{
+position: absolute;
+transform: translateX(40px);
+background-color: greenyellow;
+transition: all 0.5s;
+}
